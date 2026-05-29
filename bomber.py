@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-print("Go to any app with graphic interface and open the chat you wanna bomb. You have 5 s")
+print("Go to any app with a graphic interface and open the chat you wanna bomb. You have 5 s")
 time.sleep(5)
 
 for i in range(5):  # Number of messages you wanna send
