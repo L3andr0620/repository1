@@ -1,2 +1,3 @@
-# repository1
+# sms-gateway-benchmark
 
+For educational and authorized penetration testing purposes only.
