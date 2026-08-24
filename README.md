@@ -1,13 +1,13 @@
 # UI Automation & Application Stress Tester
 
-## ⚠️ Educational & Ethical Disclaimer
-This tool is designed strictly for frontend interface testing, software quality assurance (QA), and load optimization within authorized development environments.
+## ⚠️ Disclaimer
+This tool is made only for testing software and helping developers improve user interfaces in a safe environment.
 
-## Overview & Purpose
-This automated testing utility simulates high-frequency user interactions on graphical user interfaces (GUIs). By automating rapid input tasks, it helps software developers and QA teams evaluate interface resilience, optimize delay settings, and identify potential failure points when application windows experience heavy user input.
+## What This Tool Does
+This script automates fast button clicks and typing on desktop apps to see how well they handle lots of user activity. It helps developers find bugs, test system limits, and make sure their apps don't freeze or crash when people use them quickly.
 
-## Core Technical Concepts
-* **Interface Automation:** Leveraged `pyautogui` to programmatically control window focus and replicate realistic keyboard and mouse inputs.
-* **Precision Timing Control:** Applied controlled delays (`time.sleep`) to execute predictable, synchronized action sequences during test runs.
-* **UI Resilience Testing:** Designed high-throughput input tests to evaluate application responsiveness and benchmark interface performance under load.
+## Key Features
+* **Automatic Control:** Uses `pyautogui` to automatically type and click on screen, just like a real user.
+* **Smart Timing:** Uses short pauses (`time.sleep`) to control how fast actions happen.
+* **Performance Testing:** Sends fast inputs to text fields and buttons to test if the app stays fast and stable.
 
